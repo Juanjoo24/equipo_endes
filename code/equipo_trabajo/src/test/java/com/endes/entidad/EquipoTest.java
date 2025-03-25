@@ -19,7 +19,7 @@ class EquipoTest {
         equipo = new Equipo();
     }
 
-    @Disabled
+   
     @Test
     @DisplayName("Añadir un miembro con DNI único no lanza excepción; el duplicado sí")
     void testAñadirMiembroDuplicado() {
